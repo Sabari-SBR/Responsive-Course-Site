@@ -1,0 +1,59 @@
+/* Utilities */
+.container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-subtitle {
+    font-size: var(--text-4xl);
+    color: var(--clr-dark);
+}
+
+.section-description {
+    color: var(--clr-slate900);
+    text-align: center;
+}
+
+.btn {
+    color: var(--clr-slate200);
+    background: var(--clr-lg-blue);
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+    font-family: var(--ff-mont);
+}
+
+/* Media Tablet */
+@media (max-width: 769px) {
+    .section-subtitle {
+        font-size: var(--text-3xl);
+    }
+    .section-description {
+        font-size: var(--text-sm);
+    }
+    .section-title-wrapper {
+        gap: 6px;
+    }
+}
+
+/* Media Mobile */
+@media (max-width: 480px) {
+    .section-subtitle {
+        font-size: var(--text-2xl);
+    }
+}
+
+/* Media 1560px */
+@media (min-width: 1560px) {
+    .container {
+        max-width: 1560px;
+    }
+}

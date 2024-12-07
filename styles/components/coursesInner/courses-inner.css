@@ -1,0 +1,159 @@
+/* Courses inner */
+#coursesInner {
+    padding: 6vw;
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#coursesInner .overview { width: calc(70% - 20px); }
+
+#coursesInner .overview .course-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+#coursesInner .overview .course-content .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#coursesInner .overview .course-content h2 { color: var(--clr-slate800); }
+
+#coursesInner .overview .course-content .course__stars {
+    margin-top: 6px;
+    color: #fdc93b;
+    font-size: var(--text-sm);
+}
+
+#coursesInner .overview .course-content p {
+    color: var(--clr-slate700);
+    font-size: var(--text-base);
+    text-align: start;
+}
+
+#coursesInner .overview .course-content .enroll-price { padding: 12px 24px; }
+
+/* Other */
+#coursesInner .overview h3 {
+    color: var(--clr-slate900);
+    padding:35px 0 25px;
+}
+
+#coursesInner .overview p {
+    font-size: var(--text-base);
+    color: var(--clr-slate700);
+    text-align: start;
+}
+
+#coursesInner .overview hr { margin-top: 40px; }
+
+#coursesInner .overview .tutor-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+#coursesInner .overview .tutor-details img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#coursesInner .overview .tutor-details h5 { color: var(--clr-slate800); }
+#coursesInner .overview .tutor-details small { color: var(--clr-slate700); }
+
+#coursesInner .overview .learn {
+    padding-bottom: 15px;
+    &:last-child { padding-bottom: 0; }
+}
+
+#coursesInner .overview .learn i {
+    margin-right: 15px;
+    color: #004182;
+}
+
+#coursesInner .overview .learn small {
+    font-size: var(--text-base);
+    color: var(--clr-slate800);
+}
+
+/* Enroll */
+#coursesInner .enroll {
+    width: calc(30% - 20px);
+    padding: 30px;
+    box-shadow: 0px 20px 40px 0px rgba(11 2 55 / 8%);
+}
+
+#coursesInner .enroll h3 {
+    color: var(--clr-slate900);
+    padding-bottom: 10px;
+}
+
+#coursesInner .enroll .enroll-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+#coursesInner .enroll .enroll-list i {
+    width:  30px;
+    height: 30px;
+    text-align: center;
+    color: #004182;
+}
+
+#coursesInner .enroll .enroll-list small {
+    font-size: var(--text-sm);
+    color: var(--clr-slate800);
+}
+
+#coursesInner .enroll .enroll-btn {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#coursesInner .enroll .enroll-btn a { padding: 12px 40px; }
+
+ /* home */
+.coursesInnerHome h2 { width: 65%; text-align: center;}
+
+/* Media Tablet */
+@media (max-width: 769px) {
+    #coursesInner {
+        padding: 8vw 4vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #coursesInner .overview { width: 100%; }
+    #coursesInner .enroll { width: 50%; }
+    #coursesInner .overview .course-img { height: auto; }
+    #coursesInner .overview .course-content h2 { font-size: var(--text-xl); }
+    
+    #coursesInner .overview .course-content p,
+    #coursesInner .overview p,
+    #coursesInner .overview .learn small,
+    #coursesInner .overview .course-content .enroll-price,
+    #coursesInner .enroll .enroll-btn a { font-size: var(--text-sm); }
+    /* home */
+    .coursesInnerHome h2 { width: 75%; }
+}
+
+/* Media Mobile */
+@media (max-width: 480px) {
+    #coursesInner .enroll { width: 100%; }
+    #coursesInner .overview p { text-align: justify; }
+    /* Home */
+    .coursesInnerHome h2 { width: 95%; }
+}

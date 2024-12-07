@@ -1,0 +1,95 @@
+/* Font family from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* Common Styels */
+:root {
+    --clr-light: #f8fafc;
+    --clr-dark: #020617;
+    --clr-slate200: #e2e8f0;
+    --clr-slate300: #cbd5e1;
+    --clr-slate400: #94a3b8;
+    --clr-slate600: #475569;
+    --clr-slate700: #334155;
+    --clr-slate800: #1e293b;
+    --clr-slate900: #0f172a;
+    --clr-blue: #0077B5;
+    --clr-green: #00A862;
+    --clr-pink: #E1306C;
+    --clr-violet: #833ab4;
+    --clr-card: #f9f9ff;
+    --clr-bg-light: #F3F2F2;
+
+    /* linear gradient */
+    --clr-lg-green: linear-gradient(90deg, #008B4E, #00A862, #00C478);
+    --clr-lg-blue: linear-gradient(90deg, #005582, #0077B5, #0091DA);
+
+    /* text size */
+    --text-xxs: 0.5rem;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+
+    /* Font family */
+    --ff-mont: "Montserrat", serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
+}
+body {
+    background-color: var(--clr-bg-light);
+    font-family: var(--ff-mont);
+}
+html {
+    scroll-behavior: smooth;
+}
+img, 
+svg {
+    max-width: 100%;
+    display: block;
+    user-select: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+li {
+    list-style-type: none;
+}
+input,
+textarea {
+    font-family: var(--ff-mont);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+button {
+    padding: 0;
+    display: inline-block;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--ff-mont);
+}
+
+/* Scroll bar */
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-blue);
+    outline: 1px solid var(--clr-blue);
+}

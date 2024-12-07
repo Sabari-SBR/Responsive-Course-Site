@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechEduca</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/public/feeling.png">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body">
+  <!-- Header -->
+  <header id="header">
+    <nav class="header__navigation container">
+      <img class="header__logo" src="/public/logo.svg" alt="logo">
+      <ul class="header__link-list">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="header__button">
+         <img class="menu-bar" src="/public/bx-menu.svg" >
+         <img class="menu-close" src="/public/bx-x.svg" >
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main class="main">
+    <!-- Home section -->
+    <section id="home" class="container">
+      <div class="home__content">
+        <h1 class="home__title">Enhance Your Future With TechEduca</h1>
+        <!-- <p class="home__describtion">TechEduca empowers individuals to thrive in the digital era with industry-relevant, technology-focused courses. Through hands-on experiences, expert mentorship, and innovative learning methods, we provide the skills and knowledge needed to excel, ensuring each learner is prepared to advance in today’s fast-evolving tech landscape.
+        </p> -->
+        <p class="home__describtion">Empower your future with advanced tech education, gaining cutting-edge skills, practical expertise, and unlocking limitless opportunities in technology-driven careers.</p>
+        <div class="home__buttons">
+          <a class="home__btn btn" href="/">Learn More</a>
+          <a class="home__btn btn" href="/">Visit Courses</a>
+        </div>
+      </div>      
+    </section>
+
+    <!-- Features section -->
+    <section id="features" class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-subtitle">Awesome Features</h2>
+        <p class="section-description">Innovative tools and resources to enhance learning and productivity.</p>
+      </div>
+      <div class="features__base">
+        <div class="features__card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Scholarship Facility</h3>
+          <p>Providing scholarship opportunities for qualified students, helping reduce
+            financial barriers and support academic and career growth.</p>
+        </div>
+        <div class="features__card">
+          <i class="fa-solid fa-certificate"></i>
+          <h3>Sell Online Course</h3>
+          <p >Dell offers online courses focused on practical skills, expert insights,
+            and flexible schedules for career advancement.</p>
+        </div>
+        <div class="features__card">
+          <i class="fa-solid fa-award"></i>
+          <h3>Global Certification</h3>
+          <p>Achieve global certification to enhance your credentials and demonstrate
+            expertise recognized by employers worldwide.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="course" class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-subtitle">Our Popular Courses</h2>
+        <p class="section-description">Explore industry-leading courses designed for skill-building and career success.</p>
+      </div>
+
+      <div class="course__wrapper">
+        <!-- box 1 -->
+        <div class="course__box" onclick="window.location.href='courses-inner.html';" >
+          <img src="/public/c1.jpg" />
+          <div class="course__details">
+            <small>Updated 21/8/21</small>
+            <h6>JavaScript Beginners Course</h6>
+            <div class="course__stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="course__reg">(430)</span>
+            </div>
+          </div>
+          <span class="course__price">$49.99</span>
+        </div>
+        <!-- box 2 -->
+        <div class="course__box">
+          <img src="/public/c2.jpg" />
+          <div class="course__details">
+            <small>Updated 21/8/21</small>
+            <h6>HTML & CSS Beginners Course</h6>
+            <div class="course__stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="course__reg">(321)</span>
+            </div>
+          </div>
+          <span class="course__price">$49.99</span>
+        </div>
+        <!-- box 3 -->
+        <div class="course__box">
+          <img src="/public/c3.jpg" />
+          <div class="course__details">
+            <small>Updated 21/8/21</small>
+            <h6>Python Beginners Course</h6>
+            <div class="course__stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="course__reg">(298)</span>
+            </div>
+          </div>
+          <span class="course__price">$49.99</span>
+        </div>
+        <!-- box 4 -->
+        <div class="course__box">
+          <img src="/public/c4.jpg" />
+          <div class="course__details">
+            <small>Updated 21/8/21</small>
+            <h6>Web Design Crash Course</h6>
+            <div class="course__stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="course__reg">(457)</span>
+            </div>
+          </div>
+          <span class="course__price">$49.99</span>
+        </div>
+        <!-- box 5 -->
+        <div class="course__box">
+          <img src="/public/c5.jpg" />
+          <div class="course__details">
+            <small>Updated 21/8/21</small>
+            <h6>Web Development Crash Course</h6>
+            <div class="course__stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="course__reg">(439)</span>
+            </div>
+          </div>
+          <span class="course__price">$49.99</span>
+        </div>
+        <!-- box 6 -->
+        <div class="course__box">
+          <img src="/public/c6.jpg" />
+          <div class="course__details">
+            <small>Updated 21/8/21</small>
+            <h6>Angular Beginners Course</h6>
+            <div class="course__stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="course__reg">(195)</span>
+            </div>
+          </div>
+          <span class="course__price">$49.99</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="reg" class="container">
+      <div class="reg__column1">
+        <p>Get 100 online courses for free</p>
+        <h2>Register To Get It</h2>
+        <div class="reg__reminder">
+          <span class="reg__time">
+            18 <br> Days
+          </span>
+          <span class="reg__time">
+            23 <br> Hours
+          </span>
+          <span class="reg__time">
+            06 <br> Mins
+          </span>
+        </div>
+      </div>
+      <div class="reg__column2">
+        <h2 class="reg__form-title">Create Free Account Now!</h2>
+        <form>
+          <div class="reg__form-wrapper">
+            <label for="name">Name</label>
+            <input type="text" id="name" required/>
+          </div>
+          <div class="reg__form-wrapper">
+            <label for="email">Email address</label>
+            <input type="email" id="email" required/>
+          </div>
+          <div class="reg__form-wrapper">
+            <label for="phoneNumber">Phone number (with country code)</label>
+            <input type="tel" id="phoneNumber" pattern="/d*" required/>
+          </div>
+          <button class="reg__form-btn btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Experts -->
+    <section id="expert" class="container">
+        <div class="section-title-wrapper">
+          <h2 class="section-subtitle">Community Experts</h2>
+          <p class="section-description">Specialized professionals offering expert guidance and support within communities.</p>
+        </div>
+        <div class="expert__wrapper">
+          <!-- Profile 1 -->
+          <div class="expert__profile">
+              <img class="expert__profile-img" src="/public//pro1.webp" alt="">
+            <div class="expert__profile-info">
+              <h4 class="expert__profile-name">Ema Irnik</h4>
+              <p class="expert__profile-skill">Python Expert</p>
+              <div class="expert__profile-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Profile 2 -->
+          <div class="expert__profile">
+              <img class="expert__profile-img" src="/public//pro2.webp" alt="">
+            <div class="expert__profile-info">
+              <h4 class="expert__profile-name">Jason</h4>
+              <p class="expert__profile-skill">Data Analysis Expert</p>
+              <div class="expert__profile-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div> 
+            </div>
+          </div>
+          <!-- Profile 3 -->
+          <div class="expert__profile">
+              <img class="expert__profile-img" src="/public//pro3.webp" alt="">
+            <div class="expert__profile-info">
+              <h4 class="expert__profile-name">Maalik</h4>
+              <p class="expert__profile-skill">Full Stack Developer</p>
+              <div class="expert__profile-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Profile 4 -->
+          <div class="expert__profile">
+              <img class="expert__profile-img" src="/public//pro4.webp" alt="">
+            <div class="expert__profile-info">
+              <h4 class="expert__profile-name">Jennifer</h4>
+              <p class="expert__profile-skill">Design Expert</p>
+              <div class="expert__profile-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  
+  <!-- Footer Section-->
+  <footer id="footer" class="container">
+    <div class="footer__wrapper">
+      <!-- Column 1  -->
+      <div class="footer__column">
+        <h4 class="footer__title">Top Products</h4>
+        <ul>
+          <li class="footer__link">Manage Reputation</li>
+          <li class="footer__link">Power Tools</li>
+          <li class="footer__link">Managed Website</li>
+          <li class="footer__link">Marketing Service</li>
+        </ul>
+      </div>
+      <!-- Column 2  -->
+      <div class="footer__column">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul>
+          <li class="footer__link">Jobs</li>
+          <li class="footer__link">Brand Assets</li>
+          <li class="footer__link">Investor Relations</li>
+          <li class="footer__link">Terms of Services</li>
+        </ul>
+      </div>
+      <!-- Column 3  -->
+      <div class="footer__column">
+        <h4 class="footer__title">Features</h4>
+        <ul>
+          <li class="footer__link">Why Choose Us</li>
+          <li class="footer__link">Key Benefits</li>
+          <li class="footer__link">Our Advantages</li>
+          <li class="footer__link">What We Offer</li>
+        </ul>
+      </div>
+      <!-- Column 4  -->
+      <div class="footer__column">
+        <h4 class="footer__title">Resources</h4>
+        <ul>
+          <li class="footer__link">Helpful Guides</li>
+          <li class="footer__link">Research</li>
+          <li class="footer__link">Experts</li>
+          <li class="footer__link">Knowledge Base</li>
+      </div>
+      <!-- Column 5  -->
+      <div class="footer__column">
+        <h4 class="footer__title">Newsletter</h4>
+        <p class="footer__link info">You can trust us. We only send promo offers,</p>
+        <form> 
+          <input class="footer__subscribe" type="email" placeholder="Your Email Address" />
+          <input class="footer__btn" type="submit" value="SUBSCRIBE" />
+        </form>
+      </div>
+    </div>
+    <div class="footer__cr">
+      <p>Copyright © 2024 All rights reserved | This template is made by Tech2etc</p>
+      <div class="footer__social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
